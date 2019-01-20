@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_id"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_noPembelian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomer Pembelian"
+                android:maxLength="10"
+                android:textSize="7pt"
+                app:met_floatingLabel="normal"
+                android:inputType="number"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_namaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Barang"
+                android:maxLength="50"
+                android:textSize="7pt"
+                app:met_floatingLabel="normal" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_namaPembeli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Pembeli"
+                android:maxLength="50"
+                android:textSize="7pt"
+                app:met_floatingLabel="normal" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_noHp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomer Telepon"
+                android:maxLength="12"
+                android:textSize="7pt"
+                app:met_floatingLabel="normal"
+                android:inputType="number"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_hargaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Harga Barang"
+                app:met_floatingLabel="normal"
+                android:textSize="7pt"
+                android:inputType="number"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_tglPembelian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Pembelian : yyyy-mm-dd"
+                android:maxLength="10"
+                android:textSize="7pt"
+                app:met_floatingLabel="normal" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                android:maxLength="50"
+                android:textSize="7pt"
+                app:met_floatingLabel="normal" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

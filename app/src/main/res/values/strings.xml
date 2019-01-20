@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aplikasi Penjualan</string>
+    <string name="tab_1">STOK BARANG</string>
+    <string name="tab_2">DATA CUSTOMER</string>
+</resources>
